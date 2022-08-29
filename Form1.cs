@@ -71,13 +71,15 @@ namespace Project_Milestone
 
         private void RemoveItem()
         {
-            // if the items are greater than zero, the selected item will be removed
+            // if the an item is not selected, show a message box to remind the user to select an item.
             if (listItems.SelectedIndex == -1)
             {
                 MessageBox.Show("Please select an item to remove.");
             }
+            // if the listItems list is greater than zero, continue
             else if (listItems.Items.Count > 0)
             {
+                // diaglogue message box asking if the user is sure before removing the selected item
                 DialogResult dialogResult = MessageBox.Show("Are you sure you want to remove this item?", "Permanently Delete", MessageBoxButtons.YesNo);
                 if (dialogResult == DialogResult.Yes)
                 {
