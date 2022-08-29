@@ -45,16 +45,22 @@ namespace Project_Milestone
             // if the itemNameInput.Text box is empty, returns.
             if (string.IsNullOrEmpty(itemNameInput.Text))
                 return;
+
             // creates a new item with a name, date added, and date expired information.
-            Item item = new Item()
-            {
-                name = itemNameInput.Text,
-                dateAdded = dateTimePicker1.Value,
-                dateExpired = dateTimePicker2.Value
+            Item item = new Item 
+            { 
+                name = itemNameInput.Text, 
+                dateAdded = dateTimePicker1.Value, 
+                dateExpired = dateTimePicker2.Value 
             };
-            
-            // add the item to the list box, this will eventually include the date added and date expired
-            listItems.Items.Add(item.name);
+
+            // TODO: Remove this before final push.
+            MessageBox.Show("Item Name: " + item.name 
+                + "\nDate Added: " + item.dateAdded.ToString("MM/dd/yyyy") 
+                + "\nExpiration Date: " + item.dateExpired.ToString("MM/dd/yyyy"));
+
+            // add the item to the list box with expiration date
+            listItems.Items.Add(item.name + " | " + item.dateExpired.ToString("MM/dd/yyyy"));
 
             // clears the input text box
             itemNameInput.Clear();
@@ -66,8 +72,34 @@ namespace Project_Milestone
         private void RemoveItem()
         {
             // if the items are greater than zero, the selected item will be removed
-            if (listItems.Items.Count > 0)
-                listItems.Items.RemoveAt(listItems.SelectedIndex);
+            if (listItems.SelectedIndex == -1)
+            {
+                MessageBox.Show("Please select an item to remove.");
+            }
+            else if (listItems.Items.Count > 0)
+            {
+                DialogResult dialogResult = MessageBox.Show("Are you sure you want to remove this item?", "Permanently Delete", MessageBoxButtons.YesNo);
+                if (dialogResult == DialogResult.Yes)
+                {
+                    try
+                    {
+                        listItems.Items.RemoveAt(listItems.SelectedIndex);
+                        return;
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message);
+                    }
+                }
+                else
+                {
+                    return;
+                }
+            }
+            else
+            {
+                return;
+            }
         }
     }
 }
