@@ -1,4 +1,4 @@
-﻿// Jason Hatfield
+// Jason Hatfield
 // This is my original work
 using System;
 using System.Collections.Generic;
@@ -18,7 +18,9 @@ namespace ProjectInventoryLibrary
         public bool Show { get; set; }
         public bool Delete { get; set; }
 
-        public Item() { 
+        // Constructor
+        public Item()
+        {
             Name = "";
             Type = "";
             Quantity = 0;
@@ -53,5 +55,6 @@ namespace ProjectInventoryLibrary
                 return $"{MaxQuantity}";
             }
         }
+
     }
 }
