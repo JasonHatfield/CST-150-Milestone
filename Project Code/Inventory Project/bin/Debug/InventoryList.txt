@@ -1,0 +1,5 @@
+Name = "Carrots", Type = "Frozen", Quantity = 5, MaxQuantity = 10
+Name = "Corn", Type = "Canned", Quantity = 8, MaxQuantity = 10 });
+Name = "Pickles", Type = "Jar", Quantity = 6, MaxQuantity = 10 });
+Name = "Ice Cream", Type = "Frozen", Quantity = 9, MaxQuantity = 10 });
+Name = "Macaroni N Cheese", Type = "Boxed", Quantity = 10, MaxQuantity = 20 });

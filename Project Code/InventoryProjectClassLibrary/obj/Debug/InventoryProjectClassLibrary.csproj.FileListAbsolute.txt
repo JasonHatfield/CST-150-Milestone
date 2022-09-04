@@ -1,0 +1,6 @@
+C:\Users\jason\OneDrive\Desktop\GCU\CST-150\Inventory Project\InventoryProjectClassLibrary\bin\Debug\InventoryProjectClassLibrary.dll
+C:\Users\jason\OneDrive\Desktop\GCU\CST-150\Inventory Project\InventoryProjectClassLibrary\bin\Debug\InventoryProjectClassLibrary.pdb
+C:\Users\jason\OneDrive\Desktop\GCU\CST-150\Inventory Project\InventoryProjectClassLibrary\obj\Debug\InventoryProjectClassLibrary.csproj.AssemblyReference.cache
+C:\Users\jason\OneDrive\Desktop\GCU\CST-150\Inventory Project\InventoryProjectClassLibrary\obj\Debug\InventoryProjectClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\jason\OneDrive\Desktop\GCU\CST-150\Inventory Project\InventoryProjectClassLibrary\obj\Debug\InventoryProjectClassLibrary.dll
+C:\Users\jason\OneDrive\Desktop\GCU\CST-150\Inventory Project\InventoryProjectClassLibrary\obj\Debug\InventoryProjectClassLibrary.pdb

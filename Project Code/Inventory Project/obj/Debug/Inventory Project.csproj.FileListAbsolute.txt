@@ -1,0 +1,15 @@
+C:\Users\jason\OneDrive\Desktop\GCU\CST-150\Inventory Project\Inventory Project\bin\Debug\Inventory Project.exe.config
+C:\Users\jason\OneDrive\Desktop\GCU\CST-150\Inventory Project\Inventory Project\bin\Debug\Inventory Project.exe
+C:\Users\jason\OneDrive\Desktop\GCU\CST-150\Inventory Project\Inventory Project\bin\Debug\Inventory Project.pdb
+C:\Users\jason\OneDrive\Desktop\GCU\CST-150\Inventory Project\Inventory Project\obj\Debug\Inventory Project.csproj.AssemblyReference.cache
+C:\Users\jason\OneDrive\Desktop\GCU\CST-150\Inventory Project\Inventory Project\obj\Debug\Inventory Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\jason\OneDrive\Desktop\GCU\CST-150\Inventory Project\Inventory Project\obj\Debug\Inventory_Project.InventoryProject.resources
+C:\Users\jason\OneDrive\Desktop\GCU\CST-150\Inventory Project\Inventory Project\obj\Debug\Inventory_Project.Properties.Resources.resources
+C:\Users\jason\OneDrive\Desktop\GCU\CST-150\Inventory Project\Inventory Project\obj\Debug\Inventory Project.csproj.GenerateResource.cache
+C:\Users\jason\OneDrive\Desktop\GCU\CST-150\Inventory Project\Inventory Project\obj\Debug\Inventory Project.csproj.CoreCompileInputs.cache
+C:\Users\jason\OneDrive\Desktop\GCU\CST-150\Inventory Project\Inventory Project\obj\Debug\Inventory Project.exe
+C:\Users\jason\OneDrive\Desktop\GCU\CST-150\Inventory Project\Inventory Project\obj\Debug\Inventory Project.pdb
+C:\Users\jason\OneDrive\Desktop\GCU\CST-150\Inventory Project\Inventory Project\bin\Debug\InventoryProjectClassLibrary.dll
+C:\Users\jason\OneDrive\Desktop\GCU\CST-150\Inventory Project\Inventory Project\bin\Debug\InventoryProjectClassLibrary.pdb
+C:\Users\jason\OneDrive\Desktop\GCU\CST-150\Inventory Project\Inventory Project\obj\Debug\Inventory Project.csproj.CopyComplete
+C:\Users\jason\OneDrive\Desktop\GCU\CST-150\Inventory Project\Inventory Project\obj\Debug\Inventory_Project.MainMenu.resources
