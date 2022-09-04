@@ -10,13 +10,6 @@ namespace ProjectInventoryLibrary
 {
     public class Inventory                              // Base Class
     {
-        //public List<Item> Items { get; set; }           // Get/Set List of Item
-
-        //public Inventory()
-        //{
-        //    Items = new List<Item>();
-        //}
-
         public Array[] Items { get; set; }           // Get/Set Array of Item
 
         public Inventory()
