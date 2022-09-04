@@ -34,11 +34,14 @@ namespace Inventory_Project
         private void SetupData()
         // Initial data to implement the program on run. This would be imported from a database or txt file.
         {
-            inventory.Items.Add(new Item { Name = "Carrots", Type = "Frozen", Quantity = 5, MaxQuantity = 25, Show = true, Delete = false });
-            inventory.Items.Add(new Item { Name = "Corn", Type = "Canned", Quantity = 8, MaxQuantity = 35, Show = true, Delete = false });
-            inventory.Items.Add(new Item { Name = "Pickles", Type = "Jar", Quantity = 6, MaxQuantity = 45, Show = true, Delete = false });
-            inventory.Items.Add(new Item { Name = "Ice Cream", Type = "Frozen", Quantity = 9, MaxQuantity = 60, Show = true, Delete = false });
-            inventory.Items.Add(new Item { Name = "Macaroni N Cheese", Type = "Boxed", Quantity = 10, MaxQuantity = 10, Show = true, Delete = false });
+            Inventory[] items = new Inventory[5]
+            {
+                new Item { Name = "Carrots", Type = "Frozen", Quantity = 5, MaxQuantity = 25, Show = true, Delete = false },
+                new Item { Name = "Corn", Type = "Canned", Quantity = 8, MaxQuantity = 35, Show = true, Delete = false },
+                new Item { Name = "Pickles", Type = "Jar", Quantity = 6, MaxQuantity = 45, Show = true, Delete = false },
+                new Item { Name = "Ice Cream", Type = "Frozen", Quantity = 9, MaxQuantity = 60, Show = true, Delete = false },
+                new Item { Name = "Macaroni N Cheese", Type = "Boxed", Quantity = 10, MaxQuantity = 10, Show = true, Delete = false }
+            };
         }
 
         private void itemsListBox_SelectedIndexChanged(object sender, EventArgs e)
@@ -187,7 +190,7 @@ namespace Inventory_Project
             // else create a new item
             else
             {
-                inventory.Items.Add(new Item
+                new Item
                 {
                     Name = itemNameTextBox.Text,
                     Type = itemTypeTextBox.Text,
@@ -195,7 +198,7 @@ namespace Inventory_Project
                     MaxQuantity = int.Parse(maximumStockTextBox.Text),
                     Show = true,
                     Delete = false
-                });
+                };
                 // reset itemsListBox to hide items where the Delete boolean value is true
                 itemsBinding.DataSource = inventory.Items.Where(x => x.Delete == false).ToList();
                 itemsBinding.ResetBindings(false);
